@@ -16,6 +16,16 @@
        max-width: 1140px;
     margin: 0 auto ;
     }
+    .butto{
+      background-color:rgba(233, 90, 8, 1);
+      color: rgba(255, 255, 255, 1);
+      padding: auto 50px;
+      font-size: 16px;
+      font-weight:600 ;
+      width: 270px;
+      height: 50px;
+      border: none;
+    }
 
 /* nav */
 .nav-tittle{
@@ -63,6 +73,40 @@
   width: 570px;
   margin-top: 106px;
 }
+/* main */
+.plants-tittle{
+  font-size:50px ;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 120px;
+  text-align: center;
+}
+.plants-details{
+  font-size: 22px;
+  font-weight:400 ;
+  color:rgba(0, 0, 0, 0.5) ;
+  text-align: center;
+  max-width: 888px;
+margin-left: 140px;
+}
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card-price {
+  color:rgba(17, 17, 17, 1) ;
+  font-size: 22px;
+  font-weight:bold ;
+  text-align: center;
+  
+}
+.card-tittle{
+  color:rgba(17, 17, 17, 1) ;
+  font-size:22px ;
+  font-weight:500;
+text-align: center;
+}
 /* responsive media  */
 @media screen and (max-width: 430px) {
    /* nav  */
@@ -75,12 +119,14 @@
       margin-top:0%;
     }
   .bennar-image{
-    max-width:393.18px;
-    /* max-height:245px; */
+    max-width:102%;
+     max-height:245px; 
   margin-top: 0%;
+  margin-right: 0%;
+
   }
   .bennar-details{
-    max-width: 380px;
+    width: 360px;
     font-size:14px;
     font-weight:400;
 
@@ -93,4 +139,41 @@
   .bennar-contant{
     margin-top: 0%;
   }
-   }
+  /* plant  */
+  .plants-tittle{
+    font: size 24px ;
+    font-weight: bold;
+    text-align: center;
+  }
+  .plants-details{
+    font-size: 14px;
+    font-weight:400 ;
+    margin: 0px auto;
+    justify-content: center;
+    max-width: 336px;
+
+  }
+  .card-container{
+    margin: 28px 17px;
+  }
+  
+  
+  .card{
+     display: grid;
+    grid-template-columns: repeat(4 ,2fr);
+    display: flex;
+    flex-wrap: wrap;
+    width:171px;
+   
+    gap: 20px;
+  }
+.card-image{
+  max-width: 100%;
+}
+.card-tittle{
+  margin: 0% auto ;
+}
+.card-price{
+ margin: 0% auto ;
+}
+}
