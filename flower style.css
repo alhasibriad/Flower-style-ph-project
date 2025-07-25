@@ -107,6 +107,33 @@ margin-left: 140px;
   font-weight:500;
 text-align: center;
 }
+/* Plants Lover Section  */
+.plants-lover{
+  display: flex;
+  margin-top: 210px;
+  justify-content: space-between;
+}
+.Plants-Lover-Section-tittle{
+  font-size:50px ;
+  font-weight: bold;
+  color: rgb(10, 10, 10);
+  max-width: 540px;
+  max-height: 137px;
+  margin-left: 80px;
+}
+.Plants-Lover-Section-details{
+  font-size:22px ;
+  font-weight:400 ;
+   margin-left:63px;
+   color: rgba(0, 0, 0, 0.5);
+   margin-top: 20px;
+    max-width: 540px;
+}
+.list-lover{
+  margin-top: 20px
+}
+
+
 /* responsive media  */
 @media screen and (max-width: 430px) {
    /* nav  */
@@ -176,4 +203,20 @@ text-align: center;
 .card-price{
  margin: 0% auto ;
 }
+/* Plants-Lover-Section*/
+.plants-lover{
+  flex-direction:column;
+  margin-top: 41.5px;
+}
+.Plants-Lover-Section-tittle{
+  font-size:24px ;
+  font-weight:bold;
+  margin-left:0%;
+
+}
+.Plants-Lover-Section-details{
+  margin-left:0%;
+}
+
+
 }
