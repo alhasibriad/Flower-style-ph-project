@@ -96,6 +96,7 @@ margin-left: 140px;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  margin-top:49px ;
 }
 .card-price {
   color:rgba(17, 17, 17, 1) ;
@@ -111,9 +112,15 @@ margin-left: 140px;
 text-align: center;
 }
 /* Plants Lover Section  */
+.exta-matha-betha{
+  width: 286px;
+  height: 286px;
+ margin-left: 350px;
+ 
+}
 .plants-lover{
   display: flex;
-  margin-top: 210px;
+  /* margin-top: 210px; */
   justify-content: space-between;
 }
 .Plants-Lover-Section-tittle{
@@ -136,6 +143,9 @@ text-align: center;
   margin-top: 20px
 }
 /* Challenge */
+
+
+
 .Challenge-titlle{
 font-size:50px ;
 font-weight:bold;
@@ -331,7 +341,7 @@ border: none;
   }
  
   .nav-link{
-  width: 149px;
+  width: 19px;
   
   }
     .bennar{
@@ -440,6 +450,9 @@ display: grid;
 }
 
  /* .Challenge */
+ .exta-matha-betha{
+  display: none;
+ }
  .Challenge-titlle{
    font-size: 24px;
   font-weight: bold;
