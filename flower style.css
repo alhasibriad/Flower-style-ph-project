@@ -8,6 +8,9 @@
 
 
 /* sheared style  */
+*{
+  margin: 0%;
+}
     .display-flex{
         display: flex;
     }
@@ -53,7 +56,7 @@
 .bennar-contant{
  margin-top: 117px;
 }
-.bennar-tittle{
+.bennar-tittle , .bennar-sub-tittle{
   font-size: 4.0625rem;
   font-weight:bold ;
   color: rgba(233, 90, 8, 1);
@@ -212,7 +215,7 @@ font-weight:bold;
 border-radius: 14px;
 align-content: center;
 width: 653px;
-height:423.13px;
+height:430px.13px;
 }
 .brother-tittle{
   margin-bottom: 2px;
@@ -224,22 +227,65 @@ font-size:28px ;
   font-weight:600;
 color: rgba(255, 255, 255, 1);
 margin-left: 230px;
-margin-top:;
+}
+/* join */
+
+.join{
+  background-image:linear-gradient(rgba(7, 51, 79, 0.4)),
+ url(assets/news-letter-bg.png);
+  background-size: cover;
+  padding: 199px 305px 193px;
+  margin-top: 120.87px;
 
 }
+
+.join-tittle{
+  font-size:50px ;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1); 
+  text-align: center;
+
+  
+}
+.join-form{
+padding: 21px 540px 19px 20px;
+border: none;
+}
+ 
+
+.join-details{
+  text-align: center;
+  margin-top: 23px;
+}
+.sub-butto{
+   background-color:rgba(233, 90, 8, 1);
+      color: rgba(255, 255, 255, 1);
+      padding: 19px 53.5px;
+      font-size: 16px;
+      font-weight:600 ;
+      border: none;
+}
+
+
 /* responsive media  */
-@media screen and (max-width: 430px) {
+@media screen and (max-width:390px) {
    /* nav  */
   .nav-list{
     display: none;
   }
+  .nav-logo{
+    max-width:63px ;
+    min-height:38px ;
+    margin-left: 16px;
+  }
+
     .bennar{
       flex-direction: column-reverse;
       margin: none;
       margin-top:0%;
     }
   .bennar-image{
-    max-width:102%;
+    width:393.18px;
      max-height:245px; 
   margin-top: 0%;
   margin-right: 0%;
@@ -251,17 +297,22 @@ margin-top:;
     font-weight:400;
 
   }
-  .bennar-tittle{
+  .bennar-tittle , .bennar-sub-tittle{
     font-size:24px;
     font-weight: bold;
-    max-width: 217px;
+    max-width: 361px;
+    margin-left:1px ;
+    margin-right:16px ;
   }
   .bennar-contant{
     margin-top: 0%;
+    margin-left:16px ;
+    margin-right:17px ;
+   
   }
   /* plant  */
   .plants-tittle{
-    font: size 24px ;
+    font-size: 24px ;
     font-weight: bold;
     text-align: center;
   }
@@ -273,17 +324,26 @@ margin-top:;
     max-width: 336px;
 
   }
+
+  /* card section  */
   .card-container{
-    margin: 28px 17px;
+    margin-top: 28px;
+     margin-left:16px ;
+    margin-right:15px ;
+display: grid;
+    grid-template-columns: repeat(2 ,4fr);
+
+
   }
   
   
   .card{
-     display: grid;
-    grid-template-columns: repeat(4 ,2fr);
+      display: grid;
+    grid-template-columns: repeat(4 ,2fr); 
     display: flex;
     flex-wrap: wrap;
-    width:171px;
+   
+   max-width:171px;
    
     gap: 20px;
   }
@@ -304,19 +364,39 @@ margin-top:;
 .Plants-Lover-Section-tittle{
   font-size:24px ;
   font-weight:bold;
-  margin-left:0%;
+  margin-left:17px;
 
 }
 .Plants-Lover-Section-details{
-  margin-left:0%;
+  margin-left:15px;
+  max-width:361px ;
+  font-size:14px ;
+  font-weight:400 ;
+  padding-left:20px;
+ 
+
+}
+.Plants-Lover-Section-image{
+  max-width:358px ;
+  max-height:396px ;
+  margin-left: 17px;
+  margin-left: 18px;
 }
 
  /* .Challenge */
+ .Challenge-titlle{
+   font-size: 24px;
+  font-weight: bold;
+   max-width: 393px;
+   height: 33px;
+ }
 .Challenge-details{
   margin-left: 13px;
   margin-right: 15px;
   font-size: 14px;
   font-weight: 400;
+  max-width: 336px;
+  
 }
 .Father{
   flex-direction: column;
@@ -333,10 +413,21 @@ border-radius: 14px;
 align-content: center;
 width: 361px;
 height:177px;
+padding:5px ;
+margin-left: 16px;
+margin-right: 16px;
+margin-top: 20px;
 }
 .brother-link{
   margin-left: 130px;
   font-size: 16px;
+}
+.chilld-one , .chilld-two{
+  max-width:366.22px ;
+  max-height:206px ;
+  padding:1px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 .chilld-tittle{
   margin-left: 40px;
@@ -350,6 +441,33 @@ height:177px;
   font-size: 16px;
   padding-top: 20px;
   margin-top: 20px;
+}
+/* join  */
+.join{
+align-content: center;
+ padding: 110.5px 36px 64.5px;
+ max-width: 100%;
+}
+.join-details{
+  display: flex;
+}
+.join-tittle{
+  font-size:20px ;
+  font-weight: bold;
+
+}
+.join-form{
+padding: 20px 40px 19px 20px; 
+border: none;
+max-width:218px ;
+max-height: 50px;
+}
+
+.sub-butto{
+      padding:19px 12px ;
+      font-size: 16px;
+      font-weight:600 ;
+      border: none;
 }
 
 }
