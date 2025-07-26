@@ -15,7 +15,7 @@
         display: flex;
     }
 
-    header ,main{
+    header ,main , footer{
        max-width: 1140px;
     margin: 0 auto ;
     }
@@ -265,10 +265,61 @@ border: none;
       font-weight:600 ;
       border: none;
 }
+/* footer */
+.all-footers{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-details{
+  color:rgba(0, 0, 0, 0.5) ;
+  font-size:22px;
+  font-weight:400;
+  max-width: 359px;
+}
+.footer-list{
+ margin-bottom: 32px;
+ list-style: none;
+ color: rgba(107, 114, 128, 1);
+}
+.fotter-icon{
+  margin-left: 24px;
+}
+.icon{
+  display: none;
+}
 
 
 /* responsive media  */
 @media screen and (max-width:390px) {
+
+/*  Status bar */
+.icon{
+  display: flex;
+
+}
+.icons{
+  display: flex;
+}
+.status-bar {
+  height: 30px; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+ 
+}
+
+/*  Time  */
+.time::before {
+  content: "9:41"; 
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  padding-left: 51px;
+}
+
    /* nav  */
   .nav-list{
     display: none;
@@ -278,12 +329,17 @@ border: none;
     min-height:38px ;
     margin-left: 16px;
   }
-
+ 
+  .nav-link{
+  width: 149px;
+  
+  }
     .bennar{
       flex-direction: column-reverse;
       margin: none;
       margin-top:0%;
     }
+
   .bennar-image{
     width:393.18px;
      max-height:245px; 
@@ -468,6 +524,19 @@ max-height: 50px;
       font-size: 16px;
       font-weight:600 ;
       border: none;
+}
+/* footer section  */
+.all-footers{
+  flex-direction: column;
+}
+.header-foot{
+  margin-left: 20px;
+}
+.un-list{
+  padding-left:20px ;
+}
+.icon-one{
+  margin-left:17px;
 }
 
 }
