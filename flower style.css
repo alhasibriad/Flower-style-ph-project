@@ -32,7 +32,7 @@
 
 /* nav */
 .nav-tittle{
-    justify-content: space-between;
+     justify-content: space-between; 
     align-items: center; 
 }
 
@@ -113,14 +113,26 @@ text-align: center;
 }
 /* Plants Lover Section  */
 .exta-matha-betha{
-  width: 286px;
-  height: 286px;
- margin-left: 350px;
- 
+  position: absolute;
+  top: -145px;    
+  right: -110px;  
+  width: 300px; 
+  
+
 }
+.image-container {
+  position: relative; 
+  display: inline-block;
+}
+.Plants-Lover-Section-image{
+  display: block;
+  width: 100%;
+
+}
+
 .plants-lover{
   display: flex;
-  /* margin-top: 210px; */
+ margin-top: 210px; 
   justify-content: space-between;
 }
 .Plants-Lover-Section-tittle{
@@ -130,6 +142,7 @@ text-align: center;
   max-width: 540px;
   max-height: 137px;
   margin-left: 80px;
+  margin-top: 38px;
 }
 .Plants-Lover-Section-details{
   font-size:22px ;
@@ -138,6 +151,7 @@ text-align: center;
    color: rgba(0, 0, 0, 0.5);
    margin-top: 20px;
     max-width: 540px;
+    height: 108px;
 }
 .list-lover{
   margin-top: 20px
@@ -339,11 +353,18 @@ border: none;
     min-height:38px ;
     margin-left: 16px;
   }
- 
-  .nav-link{
-  width: 19px;
-  
-  }
+ .nav-link{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: -30px;
+ }
+.nav-tittle{
+flex-direction:row;
+justify-content: space-between;
+
+
+
+}
     .bennar{
       flex-direction: column-reverse;
       margin: none;
@@ -363,12 +384,16 @@ border: none;
     font-weight:400;
 
   }
+  .bennar-tittle{
+    margin-top: 28px;
+  }
   .bennar-tittle , .bennar-sub-tittle{
     font-size:24px;
     font-weight: bold;
     max-width: 361px;
     margin-left:1px ;
     margin-right:16px ;
+
   }
   .bennar-contant{
     margin-top: 0%;
@@ -381,6 +406,7 @@ border: none;
     font-size: 24px ;
     font-weight: bold;
     text-align: center;
+    margin-top: 65px;
   }
   .plants-details{
     font-size: 14px;
@@ -431,6 +457,7 @@ display: grid;
   font-size:24px ;
   font-weight:bold;
   margin-left:17px;
+  margin-top: 18px;
 
 }
 .Plants-Lover-Section-details{
@@ -439,6 +466,7 @@ display: grid;
   font-size:14px ;
   font-weight:400 ;
   padding-left:20px;
+  
  
 
 }
@@ -469,6 +497,7 @@ display: grid;
 }
 .Father{
   flex-direction: column;
+  margin-top: -70px;
    
 }
 .brother-tittle{
