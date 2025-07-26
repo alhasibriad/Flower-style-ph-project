@@ -132,8 +132,101 @@ text-align: center;
 .list-lover{
   margin-top: 20px
 }
+/* Challenge */
+.Challenge-titlle{
+font-size:50px ;
+font-weight:bold;
+
+}
+.Challenge-details{
+font-size: 22px;
+font-weight:400 ;
+color: rgba(0, 0, 0, 0.5);
+max-width: 888px;
+margin-left: 140px;
+
+}
+.Challenge{
+  text-align: center;
+  margin-top: 133.87px;
+  margin-bottom: 119px;
+  
+}
 
 
+.Father{
+  display: flex;
+  justify-content: space-between;
+}
+
+.child-link {
+  font-size:16px ;
+  font-weight:600;
+color: rgba(255, 255, 255, 1);
+margin-left: 110px;
+}
+.chilld-tittle{
+  margin-bottom: 2px;
+}
+
+.chilld-one{
+background-image:linear-gradient(rgba(0, 0, 0, 0.4)),
+ url(assets/deal-bloom.png);
+   background-size: cover;
+
+padding: 25px;
+color: rgba(255, 255, 255, 1);
+font-size:20px;
+font-weight:bold;
+margin-bottom: 25px;
+border-radius: 14px;
+width:367px ;
+height:181px;
+align-content: center;
+
+
+}
+.chilld-two{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
+  url(assets/deal-ana.png);
+  background-size: cover;
+  padding: 25px;
+color: rgba(255, 255, 255, 1);
+font-size:20px;
+font-weight:bold;
+border-radius: 14px;
+width:367px ;
+height:172px;
+align-content: center;
+
+
+}
+.brother{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.4)),
+   url(assets/deal-zabo.png);
+   background-size: cover;
+  padding: 25px;
+color: rgba(255, 255, 255, 1);
+font-size:40px;
+font-weight:bold;
+border-radius: 14px;
+align-content: center;
+width: 653px;
+height:423.13px;
+}
+.brother-tittle{
+  margin-bottom: 2px;
+}
+
+.brother-link{
+
+font-size:28px ;
+  font-weight:600;
+color: rgba(255, 255, 255, 1);
+margin-left: 230px;
+margin-top:;
+
+}
 /* responsive media  */
 @media screen and (max-width: 430px) {
    /* nav  */
@@ -218,5 +311,45 @@ text-align: center;
   margin-left:0%;
 }
 
+ /* .Challenge */
+.Challenge-details{
+  margin-left: 13px;
+  margin-right: 15px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.Father{
+  flex-direction: column;
+   
+}
+.brother-tittle{
+  margin-left: 80px;
+  font-size: 20px;
+  font-weight:bold;
+ 
+}
+.brother{
+border-radius: 14px;
+align-content: center;
+width: 361px;
+height:177px;
+}
+.brother-link{
+  margin-left: 130px;
+  font-size: 16px;
+}
+.chilld-tittle{
+  margin-left: 40px;
+   font-size: 20px;
+  font-weight:bold;
+   margin-left: 80px;
+}
+
+.child-link{
+  margin-left: 140px;
+  font-size: 16px;
+  padding-top: 20px;
+  margin-top: 20px;
+}
 
 }
